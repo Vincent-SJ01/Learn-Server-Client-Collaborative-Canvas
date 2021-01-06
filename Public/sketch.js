@@ -34,7 +34,7 @@ function setup(){
     b_input.changed(changeSlider);
 
     //sambungkan ke ip addres punyaku
-    sambung = io.connect(`http://192.168.1.28:8000`);
+    sambung = io.connect(`http://xxx.xxx.x.xx:8000`);
 
     sambung.on("DataServer", GambarLain);
 
